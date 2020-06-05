@@ -1,0 +1,15 @@
+max()/min(): It returns largest of input.
+
+Syntax:max(iterable, default=obj, key=func) 
+
+iterable (required)	An iterable object like string, list, tuple etc.
+
+default (optional)	The default value to return if the iterable is empty.
+
+key (optional)		It refers to the single argument function to customize the sort order.
+			 The function is applied to each item on the iterable.
+
+If the values are strings, an alphabetically comparison is done.
+
+The iterable cannot have mixed data types
+

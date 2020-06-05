@@ -19,7 +19,7 @@ Sol:
 
 Ex:
 a=(1,5,9,6,'a',4,8,'d')
-print(sorted(a))
+print(sorted(a))f
 
 Sol: error as wehave both string and int in tuple
 

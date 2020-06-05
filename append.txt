@@ -2,7 +2,7 @@ append() will add an element/ iterables at the end of the list.
 
 We can append int,float, bool,string, list,tuple, set, dictory
 
-Syntax:
+Syntax:g
 
 list.append(elmnt)
 

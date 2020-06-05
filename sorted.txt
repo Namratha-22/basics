@@ -8,7 +8,7 @@ This function will not affect the interable in the variable . It will just dispa
 
 The iterable can be list, tuple,string, set but the output is always a list.
 
-Syntax: sorted(iterable, key=lambda/def, reverse=Default false)
+Syntax: sorted(iterable, key=lambda/def, reverse=Default false)f
 
 Ex:
 a={1,5,9,6,3,4,8,2}

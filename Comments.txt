@@ -8,3 +8,13 @@ Python
 Single line comment: #
 Paragraph of comment: "...."
 Docstrings are not actually comments, but, they are documentation strings. These docstrings are within triple quotes. They are not assigned to any variable and therefore, at times, serve the purpose of comments as well.
+
+Java
+ *print()-This will print the line and cursor will be at the end of the line.
+ * It shows error without a string
+ * println()-this will print the line and cursor will move to the next line.
+ * It can work with without a string
+ * printf()-this is used for string formatting 
+ 
+ Python 
+ print()

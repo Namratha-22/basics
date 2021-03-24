@@ -1,0 +1,80 @@
+Primitive data types: int, double,char, boolean
+
+Declaring variables: Integer 
+Java   : int i =10 or int i; i=10
+we can assign the value of i during declaration or we can declare i type and assign value to i anytime
+Python   :i=10
+We dont have to declare
+
+Declaring variable : Long
+Java 
+long y = 123456L
+Python
+No such data type
+
+Declaring variable : float
+Java
+float u = 12.4f
+Python
+u = 2.3
+
+Declaring variable: double
+Java
+double a = 12.33
+double b = 100;   /*tis will be treated as 100.00*/
+Python
+No such data type
+
+Declaring vaariable:Charecter
+Java
+char r='a' /*charecters are represented in single quotes*/
+char e='1' /*integer can me converted as charecter*/
+Python
+u = 'P' or "i"
+
+Declaring variable:boolean
+Java
+boolean b1=true;
+boolean b2=false;
+true & false are values as well as keywords
+Python
+res = True
+res = False
+
+Declaring variable:String
+Java
+String O = "Hello"
+String t = "100"
+String is not a data type it is a class. String is denoted by double quotes
+Python
+x = "Hello World"
+
+Programs:Java
+1.
+class Main {   
+   public static void main(String args[]) {      
+         int t;      
+         System.out.println(t); 
+    }   
+}
+
+Sol:prog.java:4: error: variable t might not have been initialized
+		System.out.println(t); 
+Unlike class members, local variables of methods must be assigned a value to before they are accessed, or it is a compile error.
+
+2.
+class Test
+{
+    public static void main(String[] args)
+    {
+        Double object = new Double("2.4");
+        int a = object.intValue();
+        byte b = object.byteValue();
+        float d = object.floatValue();
+        double c = object.doubleValue();
+ 
+        System.out.println(a + b + c + d );
+ 
+    }
+}
+Sol:8.800000095367432

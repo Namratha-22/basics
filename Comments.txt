@@ -1,0 +1,10 @@
+Java
+
+Single line Comment: //
+Paragraph of comment:/* .....*/
+
+Python
+
+Single line comment: #
+Paragraph of comment: "...."
+Docstrings are not actually comments, but, they are documentation strings. These docstrings are within triple quotes. They are not assigned to any variable and therefore, at times, serve the purpose of comments as well.
